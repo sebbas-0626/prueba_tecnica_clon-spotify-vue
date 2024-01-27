@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HeaderVue from './components/Header.vue'
-import NewReleasesVue from './views/NewReleases.vue'
+import Header from '@/components/Header.vue';
+import NewReleases from '@/views/NewReleases.vue';
 
 </script>
 
 <template>
-  <HeaderVue />
-  <NewReleasesVue/>
+  <Header />
+  <NewReleases />
 
 
 
