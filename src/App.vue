@@ -1,7 +1,16 @@
-<script setup lang="ts">
+<script  lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Header from '@/components/Header.vue';
 import NewReleases from '@/views/NewReleases.vue';
+import spotify from './services/spotify';
+
+export default {
+  components: {
+    Header,
+    NewReleases
+  },
+
+}
 
 </script>
 
